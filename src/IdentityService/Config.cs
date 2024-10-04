@@ -17,19 +17,6 @@ public static class Config
 
     public static IEnumerable<Client> Clients =>
         [
-            // m2m client credentials flow client
-            // new Client
-            // {
-            //     ClientId = "m2m.client",
-            //     ClientName = "Client Credentials Client",
-
-            //     AllowedGrantTypes = GrantTypes.ClientCredentials,
-            //     ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
-
-            //     AllowedScopes = { "scope1" }
-            // },
-
-            // interactive client using code flow + pkce
             new Client
             {
                 ClientId = "postman",
@@ -39,5 +26,17 @@ public static class Config
                 ClientSecrets = [new Secret("NotASecret".Sha256())],
                 AllowedGrantTypes = {GrantType.ResourceOwnerPassword}
             },
+            new Client
+            {
+                ClientId = "nextApp",
+                ClientName = "nextApp",
+                ClientSecrets = {new Secret("secret".Sha256())},
+                AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
+                RequirePkce = false,
+                RedirectUris = {"http://localhost:3000/api/auth/callback/id-server"},
+                AllowOfflineAccess = true,
+                AllowedScopes = {"openid", "profile", "auctionApp"},
+                AccessTokenLifetime = 3600*24*30
+            }
         ];
 }
