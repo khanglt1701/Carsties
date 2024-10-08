@@ -38,7 +38,7 @@ public class DbInitializer
                     Color = "White",
                     Mileage = 50000,
                     Year = 2020,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2016/05/06/16/32/car-1376190_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2021/12/21/07/51/car-6884738_1280.jpg"
                 }
             },
             // 2. Tesla Model S
@@ -57,7 +57,7 @@ public class DbInitializer
                     Color = "Red",
                     Mileage = 30000,
                     Year = 2021,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2021/09/03/16/16/tesla-7474418_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2016/11/16/14/24/milky-way-1829019_1280.jpg"
                 }
             },
 
@@ -77,7 +77,7 @@ public class DbInitializer
                     Color = "Blue",
                     Mileage = 22000,
                     Year = 2022,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2018/05/30/17/34/bmw-3441616_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2024/08/07/13/43/modern-car-8952164_1280.png"
                 }
             },
 
@@ -97,7 +97,7 @@ public class DbInitializer
                     Color = "Black",
                     Mileage = 15000,
                     Year = 2020,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2020/02/15/11/43/audi-4826451_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2024/08/07/13/43/modern-car-8952162_1280.png"
                 }
             },
 
@@ -117,7 +117,7 @@ public class DbInitializer
                     Color = "Silver",
                     Mileage = 18000,
                     Year = 2021,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2021/04/12/15/31/mercedes-4167156_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2024/08/07/13/43/modern-car-8952161_1280.png"
                 }
             },
 
@@ -137,7 +137,7 @@ public class DbInitializer
                     Color = "Yellow",
                     Mileage = 10000,
                     Year = 2022,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2021/01/12/12/51/corvette-5902582_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2021/12/28/23/57/car-6900370_1280.jpg"
                 }
             },
 
@@ -157,7 +157,7 @@ public class DbInitializer
                     Color = "Gray",
                     Mileage = 30000,
                     Year = 2019,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2020/06/02/08/40/honda-5247402_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_1280.png"
                 }
             },
 
@@ -177,7 +177,7 @@ public class DbInitializer
                     Color = "Green",
                     Mileage = 12000,
                     Year = 2021,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2020/07/06/09/36/nissan-5378071_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2017/03/05/15/29/aston-martin-2118857_1280.jpg"
                 }
             },
 
@@ -197,7 +197,7 @@ public class DbInitializer
                     Color = "Brown",
                     Mileage = 20000,
                     Year = 2020,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2020/06/15/16/00/subaru-3474390_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2023/07/19/12/16/car-8136751_1280.jpg"
                 }
             },
 
@@ -217,7 +217,7 @@ public class DbInitializer
                     Color = "Blue",
                     Mileage = 25000,
                     Year = 2019,
-                    ImageUrl = "https://cdn.pixabay.com/photo/2020/04/21/16/14/toyota-4150447_960_720.jpg"
+                    ImageUrl = "https://cdn.pixabay.com/photo/2016/09/06/13/37/maserati-gran-turismo-1649119_1280.jpg"
                 }
             }
         };
