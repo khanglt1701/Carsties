@@ -8,11 +8,11 @@ import { getCurrentUser } from '@/app/actions/authAction';
 import EditButton from './EditButton';
 import DeleteButton from './DeleteButton';
 import BidItem from './BidItem';
+import BidList from './BidList';
 
 async function Details({params}: {params: {id: string}}) {
   const data = await getDetailedViewData(params.id);
   const user = await getCurrentUser();
-  const bids = await getBidsForAuction(params.id);
 
   return (
     <div>
@@ -38,12 +38,7 @@ async function Details({params}: {params: {id: string}}) {
           <CarImage imageUrl={data.imageUrl} />
         </div>
 
-        <div className="border-2 rounded-lg p-2 bg-gray-100">
-          <Heading title='Bids' /> 
-          {bids.map(bid => (
-            <BidItem key={bid.id} bid={bid} />
-          ))}
-        </div>
+        <BidList user={user} auction={data} />
       </div>
 
       <div className="mt-3 grid grid-cols-1 rounded-lg">
