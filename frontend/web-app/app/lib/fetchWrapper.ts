@@ -1,6 +1,6 @@
 import { auth } from "@/auth";
 
-const baseUrl = 'http://localhost:6001/';
+const baseUrl = process.env.API_URL;
 
 async function get(url: string) {
   const requestOptions = {
@@ -13,6 +13,7 @@ async function get(url: string) {
   return await handleResponse(response);
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 async function post(url: string, body: {}) {
   const requestOptions = {
     method: 'POST',

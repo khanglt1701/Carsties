@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Dropdown, DropdownDivider, DropdownItem } from 'flowbite-react'
+import { Dropdown, DropdownDivider, DropdownItem } from 'flowbite-react'
 import React from 'react'
 import Link from 'next/link'
 import { User } from 'next-auth'

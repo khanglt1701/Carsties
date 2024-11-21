@@ -24,6 +24,7 @@ function Search() {
   return (
     <div className='flex w-[50%] items-center border-2 rounded-full py-2 shadow-sm'>
       <input
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         onKeyDown={(e: any) =>  {
           if(e.key === 'Enter') search();
         }}
