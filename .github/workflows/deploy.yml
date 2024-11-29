@@ -18,7 +18,7 @@ jobs:
           - name: 'seamol1701/search-svc'
             path: 'src/SearchService'
           - name: 'seamol1701/bid-svc'
-            path: 'src/BidService'
+            path: 'src/BiddingService'
           - name: 'seamol1701/identity-svc'
             path: 'src/IdentityService'
           - name: 'seamol1701/gateway-svc'
