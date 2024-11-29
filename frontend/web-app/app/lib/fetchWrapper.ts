@@ -26,6 +26,7 @@ async function post(url: string, body: {}) {
   return await handleResponse(response);
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 async function put(url: string, body: {}) {
   const requestOptions = {
     method: 'PUT',
@@ -53,6 +54,7 @@ async function getHeaders() {
   const session = await auth();
   const headers = {
     'Content-type': 'application/json'
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } as any;
 
   if (session?.accessToken) {
@@ -69,6 +71,7 @@ async function handleResponse(response: Response) {
   try {
     data = JSON.parse(text)
   } catch (error) {
+    console.log(error)
     data = text
   }
 
