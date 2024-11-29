@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         service:
-          - name: 'seamol/auction-svc'
+          - name: 'seamol1701/auction-svc'
             path: 'src/AuctionService'
 
     steps:
