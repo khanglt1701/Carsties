@@ -13,8 +13,7 @@ spec:
     spec:
       containers:
       - name: webapp-svc
-        image: seamol/webapp-svc
-        imagePullPolicy: Never
+        image: seamol/webapp-svc:latest
         env:
           - name: AUTH_SECRET
             valueFrom:

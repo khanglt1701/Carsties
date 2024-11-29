@@ -41,3 +41,4 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+infra/prod-k8s/prod-secrets.yml

@@ -81,4 +81,4 @@ jobs:
         run: doctl kubernetes cluster kubeconfig save carties
       
       - name: Apply the K8S deployments
-        run: kubectl apply -f infra/K8S
+        run: kubectl apply -f infra/K8S && kubectl apply -f infra/prod-k8s
