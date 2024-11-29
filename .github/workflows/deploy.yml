@@ -15,6 +15,18 @@ jobs:
         service:
           - name: 'seamol1701/auction-svc'
             path: 'src/AuctionService'
+          - name: 'seamol1701/search-svc'
+            path: 'src/SearchService'
+          - name: 'seamol1701/bid-svc'
+            path: 'src/BidService'
+          - name: 'seamol1701/identity-svc'
+            path: 'src/IdentityService'
+          - name: 'seamol1701/gateway-svc'
+            path: 'src/GatewayService'
+          - name: 'seamol1701/notify-svc'
+            path: 'src/NotificationService'
+          - name: 'seamol1701/web-app'
+            path: 'frontend/web-app'
 
     steps:
     - name: Checkout code
