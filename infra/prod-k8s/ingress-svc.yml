@@ -8,12 +8,12 @@ spec:
   ingressClassName: nginx
   tls:
     - host:
-      - app.carties.local
-      - api.carties.local
-      - id.carties.local
-      secretName: carties-app-tls
+      - app.carsties.local
+      - api.carsties.local
+      - id.carsties.local
+      secretName: carsties-app-tls
   rules:
-  - host: app.carties.local
+  - host: app.carsties.local
     http:
       paths:
       - pathType: Prefix
@@ -23,7 +23,7 @@ spec:
             name: webapp-clusterip
             port: 
               number: 3000
-  - host: api.carties.local
+  - host: api.carsties.local
     http:
       paths:
       - pathType: Prefix
@@ -33,7 +33,7 @@ spec:
             name: gateway-clusterip
             port: 
               number: 80
-  - host: id.carties.local
+  - host: id.carsties.local
     http:
       paths:
       - pathType: Prefix
